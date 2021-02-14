@@ -1,4 +1,0 @@
-C:/Users/cqwuxiaolong/HelloOcct/build/CMakeFiles/LamohCad.dir
-C:/Users/cqwuxiaolong/HelloOcct/build/CMakeFiles/PACKAGE.dir
-C:/Users/cqwuxiaolong/HelloOcct/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/cqwuxiaolong/HelloOcct/build/CMakeFiles/ZERO_CHECK.dir
