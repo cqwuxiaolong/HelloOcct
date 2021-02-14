@@ -1,0 +1,505 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{00DEF3EB-8EA0-3D17-99BF-1967FA3EF681}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>Project</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\cqwuxiaolong\HelloOcct\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Project.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Project</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\cqwuxiaolong\HelloOcct\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Project.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Project</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\cqwuxiaolong\HelloOcct\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Project.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Project</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\cqwuxiaolong\HelloOcct\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Project.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Project</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\cqwuxiaolong\HelloOcct\build;C:\Users\cqwuxiaolong\HelloOcct;C:\Users\cqwuxiaolong\HelloOcct\build\Project_autogen\include_Debug;C:\Users\cqwuxiaolong\occt\build\inc;C:\Users\cqwuxiaolong\HelloOcct\.\src;C:\Users\cqwuxiaolong\HelloOcct\.\src\include;C:\Qt\5.15.2\msvc2019_64\include;C:\Qt\5.15.2\msvc2019_64\include\QtCore;C:\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc;C:\Qt\5.15.2\msvc2019_64\include\QtWidgets;C:\Qt\5.15.2\msvc2019_64\include\QtGui;C:\Qt\5.15.2\msvc2019_64\include\QtANGLE;C:\Qt\5.15.2\msvc2019_64\include\QtQuick;C:\Qt\5.15.2\msvc2019_64\include\QtQmlModels;C:\Qt\5.15.2\msvc2019_64\include\QtQml;C:\Qt\5.15.2\msvc2019_64\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;QT_CORE_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_QUICK_LIB;QT_QMLMODELS_LIB;QT_QML_LIB;QT_NETWORK_LIB;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;QT_CORE_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_QUICK_LIB;QT_QMLMODELS_LIB;QT_QML_LIB;QT_NETWORK_LIB;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\cqwuxiaolong\HelloOcct\build;C:\Users\cqwuxiaolong\HelloOcct;C:\Users\cqwuxiaolong\HelloOcct\build\Project_autogen\include_Debug;C:\Users\cqwuxiaolong\occt\build\inc;C:\Users\cqwuxiaolong\HelloOcct\.\src;C:\Users\cqwuxiaolong\HelloOcct\.\src\include;C:\Qt\5.15.2\msvc2019_64\include;C:\Qt\5.15.2\msvc2019_64\include\QtCore;C:\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc;C:\Qt\5.15.2\msvc2019_64\include\QtWidgets;C:\Qt\5.15.2\msvc2019_64\include\QtGui;C:\Qt\5.15.2\msvc2019_64\include\QtANGLE;C:\Qt\5.15.2\msvc2019_64\include\QtQuick;C:\Qt\5.15.2\msvc2019_64\include\QtQmlModels;C:\Qt\5.15.2\msvc2019_64\include\QtQml;C:\Qt\5.15.2\msvc2019_64\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\cqwuxiaolong\HelloOcct\build;C:\Users\cqwuxiaolong\HelloOcct;C:\Users\cqwuxiaolong\HelloOcct\build\Project_autogen\include_Debug;C:\Users\cqwuxiaolong\occt\build\inc;C:\Users\cqwuxiaolong\HelloOcct\.\src;C:\Users\cqwuxiaolong\HelloOcct\.\src\include;C:\Qt\5.15.2\msvc2019_64\include;C:\Qt\5.15.2\msvc2019_64\include\QtCore;C:\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc;C:\Qt\5.15.2\msvc2019_64\include\QtWidgets;C:\Qt\5.15.2\msvc2019_64\include\QtGui;C:\Qt\5.15.2\msvc2019_64\include\QtANGLE;C:\Qt\5.15.2\msvc2019_64\include\QtQuick;C:\Qt\5.15.2\msvc2019_64\include\QtQmlModels;C:\Qt\5.15.2\msvc2019_64\include\QtQml;C:\Qt\5.15.2\msvc2019_64\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message>Automatic MOC for target Project</Message>
+      <Command>setlocal
+cd C:\Users\cqwuxiaolong\HelloOcct\build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/cqwuxiaolong/HelloOcct/build/CMakeFiles/Project_autogen.dir/AutogenInfo.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>C:\Qt\5.15.2\msvc2019_64\lib\Qt5Widgetsd.lib;C:\Qt\5.15.2\msvc2019_64\lib\Qt5Quickd.lib;openGl32.lib;TKG2d.lib;TKG3d.lib;TKGeomBase.lib;TKBRep.lib;TKGeomAlgo.lib;TKTopAlgo.lib;TKPrim.lib;TKBO.lib;TKShHealing.lib;TKBool.lib;TKHLR.lib;TKFillet.lib;TKOffset.lib;TKFeat.lib;TKMesh.lib;TKXMesh.lib;TKernel.lib;TKMath.lib;TKService.lib;TKV3d.lib;TKOpenGl.lib;TKMeshVS.lib;C:\Qt\5.15.2\msvc2019_64\lib\Qt5Guid.lib;C:\Qt\5.15.2\msvc2019_64\lib\Qt5QmlModelsd.lib;C:\Qt\5.15.2\msvc2019_64\lib\Qt5Qmld.lib;C:\Qt\5.15.2\msvc2019_64\lib\Qt5Networkd.lib;C:\Qt\5.15.2\msvc2019_64\lib\Qt5Cored.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/cqwuxiaolong/occt/build/win64/vc14/lib;C:/Users/cqwuxiaolong/occt/build/win64/vc14/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/cqwuxiaolong/HelloOcct/build/Debug/Project.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/cqwuxiaolong/HelloOcct/build/Debug/Project.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\cqwuxiaolong\HelloOcct\build;C:\Users\cqwuxiaolong\HelloOcct;C:\Users\cqwuxiaolong\HelloOcct\build\Project_autogen\include_Release;C:\Users\cqwuxiaolong\occt\build\inc;C:\Users\cqwuxiaolong\HelloOcct\.\src;C:\Users\cqwuxiaolong\HelloOcct\.\src\include;C:\Qt\5.15.2\msvc2019_64\include;C:\Qt\5.15.2\msvc2019_64\include\QtCore;C:\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc;C:\Qt\5.15.2\msvc2019_64\include\QtWidgets;C:\Qt\5.15.2\msvc2019_64\include\QtGui;C:\Qt\5.15.2\msvc2019_64\include\QtANGLE;C:\Qt\5.15.2\msvc2019_64\include\QtQuick;C:\Qt\5.15.2\msvc2019_64\include\QtQmlModels;C:\Qt\5.15.2\msvc2019_64\include\QtQml;C:\Qt\5.15.2\msvc2019_64\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_CORE_LIB;QT_NO_DEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_QUICK_LIB;QT_QMLMODELS_LIB;QT_QML_LIB;QT_NETWORK_LIB;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_CORE_LIB;QT_NO_DEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_QUICK_LIB;QT_QMLMODELS_LIB;QT_QML_LIB;QT_NETWORK_LIB;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\cqwuxiaolong\HelloOcct\build;C:\Users\cqwuxiaolong\HelloOcct;C:\Users\cqwuxiaolong\HelloOcct\build\Project_autogen\include_Release;C:\Users\cqwuxiaolong\occt\build\inc;C:\Users\cqwuxiaolong\HelloOcct\.\src;C:\Users\cqwuxiaolong\HelloOcct\.\src\include;C:\Qt\5.15.2\msvc2019_64\include;C:\Qt\5.15.2\msvc2019_64\include\QtCore;C:\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc;C:\Qt\5.15.2\msvc2019_64\include\QtWidgets;C:\Qt\5.15.2\msvc2019_64\include\QtGui;C:\Qt\5.15.2\msvc2019_64\include\QtANGLE;C:\Qt\5.15.2\msvc2019_64\include\QtQuick;C:\Qt\5.15.2\msvc2019_64\include\QtQmlModels;C:\Qt\5.15.2\msvc2019_64\include\QtQml;C:\Qt\5.15.2\msvc2019_64\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\cqwuxiaolong\HelloOcct\build;C:\Users\cqwuxiaolong\HelloOcct;C:\Users\cqwuxiaolong\HelloOcct\build\Project_autogen\include_Release;C:\Users\cqwuxiaolong\occt\build\inc;C:\Users\cqwuxiaolong\HelloOcct\.\src;C:\Users\cqwuxiaolong\HelloOcct\.\src\include;C:\Qt\5.15.2\msvc2019_64\include;C:\Qt\5.15.2\msvc2019_64\include\QtCore;C:\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc;C:\Qt\5.15.2\msvc2019_64\include\QtWidgets;C:\Qt\5.15.2\msvc2019_64\include\QtGui;C:\Qt\5.15.2\msvc2019_64\include\QtANGLE;C:\Qt\5.15.2\msvc2019_64\include\QtQuick;C:\Qt\5.15.2\msvc2019_64\include\QtQmlModels;C:\Qt\5.15.2\msvc2019_64\include\QtQml;C:\Qt\5.15.2\msvc2019_64\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message>Automatic MOC for target Project</Message>
+      <Command>setlocal
+cd C:\Users\cqwuxiaolong\HelloOcct\build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/cqwuxiaolong/HelloOcct/build/CMakeFiles/Project_autogen.dir/AutogenInfo.json Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>C:\Qt\5.15.2\msvc2019_64\lib\Qt5Widgets.lib;C:\Qt\5.15.2\msvc2019_64\lib\Qt5Quick.lib;openGl32.lib;TKG2d.lib;TKG3d.lib;TKGeomBase.lib;TKBRep.lib;TKGeomAlgo.lib;TKTopAlgo.lib;TKPrim.lib;TKBO.lib;TKShHealing.lib;TKBool.lib;TKHLR.lib;TKFillet.lib;TKOffset.lib;TKFeat.lib;TKMesh.lib;TKXMesh.lib;TKernel.lib;TKMath.lib;TKService.lib;TKV3d.lib;TKOpenGl.lib;TKMeshVS.lib;C:\Qt\5.15.2\msvc2019_64\lib\Qt5Gui.lib;C:\Qt\5.15.2\msvc2019_64\lib\Qt5QmlModels.lib;C:\Qt\5.15.2\msvc2019_64\lib\Qt5Qml.lib;C:\Qt\5.15.2\msvc2019_64\lib\Qt5Network.lib;C:\Qt\5.15.2\msvc2019_64\lib\Qt5Core.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/cqwuxiaolong/occt/build/win64/vc14/lib;C:/Users/cqwuxiaolong/occt/build/win64/vc14/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/cqwuxiaolong/HelloOcct/build/Release/Project.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/cqwuxiaolong/HelloOcct/build/Release/Project.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\cqwuxiaolong\HelloOcct\build;C:\Users\cqwuxiaolong\HelloOcct;C:\Users\cqwuxiaolong\HelloOcct\build\Project_autogen\include_MinSizeRel;C:\Users\cqwuxiaolong\occt\build\inc;C:\Users\cqwuxiaolong\HelloOcct\.\src;C:\Users\cqwuxiaolong\HelloOcct\.\src\include;C:\Qt\5.15.2\msvc2019_64\include;C:\Qt\5.15.2\msvc2019_64\include\QtCore;C:\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc;C:\Qt\5.15.2\msvc2019_64\include\QtWidgets;C:\Qt\5.15.2\msvc2019_64\include\QtGui;C:\Qt\5.15.2\msvc2019_64\include\QtANGLE;C:\Qt\5.15.2\msvc2019_64\include\QtQuick;C:\Qt\5.15.2\msvc2019_64\include\QtQmlModels;C:\Qt\5.15.2\msvc2019_64\include\QtQml;C:\Qt\5.15.2\msvc2019_64\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_CORE_LIB;QT_NO_DEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_QUICK_LIB;QT_QMLMODELS_LIB;QT_QML_LIB;QT_NETWORK_LIB;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_CORE_LIB;QT_NO_DEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_QUICK_LIB;QT_QMLMODELS_LIB;QT_QML_LIB;QT_NETWORK_LIB;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\cqwuxiaolong\HelloOcct\build;C:\Users\cqwuxiaolong\HelloOcct;C:\Users\cqwuxiaolong\HelloOcct\build\Project_autogen\include_MinSizeRel;C:\Users\cqwuxiaolong\occt\build\inc;C:\Users\cqwuxiaolong\HelloOcct\.\src;C:\Users\cqwuxiaolong\HelloOcct\.\src\include;C:\Qt\5.15.2\msvc2019_64\include;C:\Qt\5.15.2\msvc2019_64\include\QtCore;C:\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc;C:\Qt\5.15.2\msvc2019_64\include\QtWidgets;C:\Qt\5.15.2\msvc2019_64\include\QtGui;C:\Qt\5.15.2\msvc2019_64\include\QtANGLE;C:\Qt\5.15.2\msvc2019_64\include\QtQuick;C:\Qt\5.15.2\msvc2019_64\include\QtQmlModels;C:\Qt\5.15.2\msvc2019_64\include\QtQml;C:\Qt\5.15.2\msvc2019_64\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\cqwuxiaolong\HelloOcct\build;C:\Users\cqwuxiaolong\HelloOcct;C:\Users\cqwuxiaolong\HelloOcct\build\Project_autogen\include_MinSizeRel;C:\Users\cqwuxiaolong\occt\build\inc;C:\Users\cqwuxiaolong\HelloOcct\.\src;C:\Users\cqwuxiaolong\HelloOcct\.\src\include;C:\Qt\5.15.2\msvc2019_64\include;C:\Qt\5.15.2\msvc2019_64\include\QtCore;C:\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc;C:\Qt\5.15.2\msvc2019_64\include\QtWidgets;C:\Qt\5.15.2\msvc2019_64\include\QtGui;C:\Qt\5.15.2\msvc2019_64\include\QtANGLE;C:\Qt\5.15.2\msvc2019_64\include\QtQuick;C:\Qt\5.15.2\msvc2019_64\include\QtQmlModels;C:\Qt\5.15.2\msvc2019_64\include\QtQml;C:\Qt\5.15.2\msvc2019_64\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message>Automatic MOC for target Project</Message>
+      <Command>setlocal
+cd C:\Users\cqwuxiaolong\HelloOcct\build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/cqwuxiaolong/HelloOcct/build/CMakeFiles/Project_autogen.dir/AutogenInfo.json MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>C:\Qt\5.15.2\msvc2019_64\lib\Qt5Widgets.lib;C:\Qt\5.15.2\msvc2019_64\lib\Qt5Quick.lib;openGl32.lib;TKG2d.lib;TKG3d.lib;TKGeomBase.lib;TKBRep.lib;TKGeomAlgo.lib;TKTopAlgo.lib;TKPrim.lib;TKBO.lib;TKShHealing.lib;TKBool.lib;TKHLR.lib;TKFillet.lib;TKOffset.lib;TKFeat.lib;TKMesh.lib;TKXMesh.lib;TKernel.lib;TKMath.lib;TKService.lib;TKV3d.lib;TKOpenGl.lib;TKMeshVS.lib;C:\Qt\5.15.2\msvc2019_64\lib\Qt5Gui.lib;C:\Qt\5.15.2\msvc2019_64\lib\Qt5QmlModels.lib;C:\Qt\5.15.2\msvc2019_64\lib\Qt5Qml.lib;C:\Qt\5.15.2\msvc2019_64\lib\Qt5Network.lib;C:\Qt\5.15.2\msvc2019_64\lib\Qt5Core.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/cqwuxiaolong/occt/build/win64/vc14/lib;C:/Users/cqwuxiaolong/occt/build/win64/vc14/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/cqwuxiaolong/HelloOcct/build/MinSizeRel/Project.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/cqwuxiaolong/HelloOcct/build/MinSizeRel/Project.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\cqwuxiaolong\HelloOcct\build;C:\Users\cqwuxiaolong\HelloOcct;C:\Users\cqwuxiaolong\HelloOcct\build\Project_autogen\include_RelWithDebInfo;C:\Users\cqwuxiaolong\occt\build\inc;C:\Users\cqwuxiaolong\HelloOcct\.\src;C:\Users\cqwuxiaolong\HelloOcct\.\src\include;C:\Qt\5.15.2\msvc2019_64\include;C:\Qt\5.15.2\msvc2019_64\include\QtCore;C:\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc;C:\Qt\5.15.2\msvc2019_64\include\QtWidgets;C:\Qt\5.15.2\msvc2019_64\include\QtGui;C:\Qt\5.15.2\msvc2019_64\include\QtANGLE;C:\Qt\5.15.2\msvc2019_64\include\QtQuick;C:\Qt\5.15.2\msvc2019_64\include\QtQmlModels;C:\Qt\5.15.2\msvc2019_64\include\QtQml;C:\Qt\5.15.2\msvc2019_64\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_CORE_LIB;QT_NO_DEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_QUICK_LIB;QT_QMLMODELS_LIB;QT_QML_LIB;QT_NETWORK_LIB;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_CORE_LIB;QT_NO_DEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_QUICK_LIB;QT_QMLMODELS_LIB;QT_QML_LIB;QT_NETWORK_LIB;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\cqwuxiaolong\HelloOcct\build;C:\Users\cqwuxiaolong\HelloOcct;C:\Users\cqwuxiaolong\HelloOcct\build\Project_autogen\include_RelWithDebInfo;C:\Users\cqwuxiaolong\occt\build\inc;C:\Users\cqwuxiaolong\HelloOcct\.\src;C:\Users\cqwuxiaolong\HelloOcct\.\src\include;C:\Qt\5.15.2\msvc2019_64\include;C:\Qt\5.15.2\msvc2019_64\include\QtCore;C:\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc;C:\Qt\5.15.2\msvc2019_64\include\QtWidgets;C:\Qt\5.15.2\msvc2019_64\include\QtGui;C:\Qt\5.15.2\msvc2019_64\include\QtANGLE;C:\Qt\5.15.2\msvc2019_64\include\QtQuick;C:\Qt\5.15.2\msvc2019_64\include\QtQmlModels;C:\Qt\5.15.2\msvc2019_64\include\QtQml;C:\Qt\5.15.2\msvc2019_64\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\cqwuxiaolong\HelloOcct\build;C:\Users\cqwuxiaolong\HelloOcct;C:\Users\cqwuxiaolong\HelloOcct\build\Project_autogen\include_RelWithDebInfo;C:\Users\cqwuxiaolong\occt\build\inc;C:\Users\cqwuxiaolong\HelloOcct\.\src;C:\Users\cqwuxiaolong\HelloOcct\.\src\include;C:\Qt\5.15.2\msvc2019_64\include;C:\Qt\5.15.2\msvc2019_64\include\QtCore;C:\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc;C:\Qt\5.15.2\msvc2019_64\include\QtWidgets;C:\Qt\5.15.2\msvc2019_64\include\QtGui;C:\Qt\5.15.2\msvc2019_64\include\QtANGLE;C:\Qt\5.15.2\msvc2019_64\include\QtQuick;C:\Qt\5.15.2\msvc2019_64\include\QtQmlModels;C:\Qt\5.15.2\msvc2019_64\include\QtQml;C:\Qt\5.15.2\msvc2019_64\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message>Automatic MOC for target Project</Message>
+      <Command>setlocal
+cd C:\Users\cqwuxiaolong\HelloOcct\build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/cqwuxiaolong/HelloOcct/build/CMakeFiles/Project_autogen.dir/AutogenInfo.json RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>C:\Qt\5.15.2\msvc2019_64\lib\Qt5Widgets.lib;C:\Qt\5.15.2\msvc2019_64\lib\Qt5Quick.lib;openGl32.lib;TKG2d.lib;TKG3d.lib;TKGeomBase.lib;TKBRep.lib;TKGeomAlgo.lib;TKTopAlgo.lib;TKPrim.lib;TKBO.lib;TKShHealing.lib;TKBool.lib;TKHLR.lib;TKFillet.lib;TKOffset.lib;TKFeat.lib;TKMesh.lib;TKXMesh.lib;TKernel.lib;TKMath.lib;TKService.lib;TKV3d.lib;TKOpenGl.lib;TKMeshVS.lib;C:\Qt\5.15.2\msvc2019_64\lib\Qt5Gui.lib;C:\Qt\5.15.2\msvc2019_64\lib\Qt5QmlModels.lib;C:\Qt\5.15.2\msvc2019_64\lib\Qt5Qml.lib;C:\Qt\5.15.2\msvc2019_64\lib\Qt5Network.lib;C:\Qt\5.15.2\msvc2019_64\lib\Qt5Core.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/cqwuxiaolong/occt/build/win64/vc14/lib;C:/Users/cqwuxiaolong/occt/build/win64/vc14/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/cqwuxiaolong/HelloOcct/build/RelWithDebInfo/Project.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/cqwuxiaolong/HelloOcct/build/RelWithDebInfo/Project.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\cqwuxiaolong\HelloOcct\build\CMakeFiles\2fc35544141d3fa8defe75ada9f6c17a\qrc_AndroidQt.cpp.rule">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Automatic RCC for src/AndroidQt.qrc</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Users\cqwuxiaolong\HelloOcct\build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc C:/Users/cqwuxiaolong/HelloOcct/build/CMakeFiles/Project_autogen.dir/AutoRcc_AndroidQt_UVLADIE3JM_Info.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc C:/Users/cqwuxiaolong/HelloOcct/build/CMakeFiles/Project_autogen.dir/AutoRcc_AndroidQt_UVLADIE3JM_Info.json Release
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc C:/Users/cqwuxiaolong/HelloOcct/build/CMakeFiles/Project_autogen.dir/AutoRcc_AndroidQt_UVLADIE3JM_Info.json MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc C:/Users/cqwuxiaolong/HelloOcct/build/CMakeFiles/Project_autogen.dir/AutoRcc_AndroidQt_UVLADIE3JM_Info.json RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\cqwuxiaolong\HelloOcct\src\AndroidQt.qrc;C:\Users\cqwuxiaolong\HelloOcct\build\CMakeFiles\Project_autogen.dir\AutoRcc_AndroidQt_UVLADIE3JM_Info.json;C:\Users\cqwuxiaolong\HelloOcct\res\icons\ic_action_collection.png;C:\Users\cqwuxiaolong\HelloOcct\res\qml\main.qml;C:\Qt\5.15.2\msvc2019_64\bin\rcc.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\cqwuxiaolong\HelloOcct\build\Project_autogen\UVLADIE3JM\qrc_AndroidQt.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Automatic RCC for src/AndroidQt.qrc</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\Users\cqwuxiaolong\HelloOcct\build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc C:/Users/cqwuxiaolong/HelloOcct/build/CMakeFiles/Project_autogen.dir/AutoRcc_AndroidQt_UVLADIE3JM_Info.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc C:/Users/cqwuxiaolong/HelloOcct/build/CMakeFiles/Project_autogen.dir/AutoRcc_AndroidQt_UVLADIE3JM_Info.json Release
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc C:/Users/cqwuxiaolong/HelloOcct/build/CMakeFiles/Project_autogen.dir/AutoRcc_AndroidQt_UVLADIE3JM_Info.json MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc C:/Users/cqwuxiaolong/HelloOcct/build/CMakeFiles/Project_autogen.dir/AutoRcc_AndroidQt_UVLADIE3JM_Info.json RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\cqwuxiaolong\HelloOcct\src\AndroidQt.qrc;C:\Users\cqwuxiaolong\HelloOcct\build\CMakeFiles\Project_autogen.dir\AutoRcc_AndroidQt_UVLADIE3JM_Info.json;C:\Users\cqwuxiaolong\HelloOcct\res\icons\ic_action_collection.png;C:\Users\cqwuxiaolong\HelloOcct\res\qml\main.qml;C:\Qt\5.15.2\msvc2019_64\bin\rcc.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\cqwuxiaolong\HelloOcct\build\Project_autogen\UVLADIE3JM\qrc_AndroidQt.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Automatic RCC for src/AndroidQt.qrc</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\Users\cqwuxiaolong\HelloOcct\build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc C:/Users/cqwuxiaolong/HelloOcct/build/CMakeFiles/Project_autogen.dir/AutoRcc_AndroidQt_UVLADIE3JM_Info.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc C:/Users/cqwuxiaolong/HelloOcct/build/CMakeFiles/Project_autogen.dir/AutoRcc_AndroidQt_UVLADIE3JM_Info.json Release
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc C:/Users/cqwuxiaolong/HelloOcct/build/CMakeFiles/Project_autogen.dir/AutoRcc_AndroidQt_UVLADIE3JM_Info.json MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc C:/Users/cqwuxiaolong/HelloOcct/build/CMakeFiles/Project_autogen.dir/AutoRcc_AndroidQt_UVLADIE3JM_Info.json RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\cqwuxiaolong\HelloOcct\src\AndroidQt.qrc;C:\Users\cqwuxiaolong\HelloOcct\build\CMakeFiles\Project_autogen.dir\AutoRcc_AndroidQt_UVLADIE3JM_Info.json;C:\Users\cqwuxiaolong\HelloOcct\res\icons\ic_action_collection.png;C:\Users\cqwuxiaolong\HelloOcct\res\qml\main.qml;C:\Qt\5.15.2\msvc2019_64\bin\rcc.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\cqwuxiaolong\HelloOcct\build\Project_autogen\UVLADIE3JM\qrc_AndroidQt.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Automatic RCC for src/AndroidQt.qrc</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\Users\cqwuxiaolong\HelloOcct\build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc C:/Users/cqwuxiaolong/HelloOcct/build/CMakeFiles/Project_autogen.dir/AutoRcc_AndroidQt_UVLADIE3JM_Info.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc C:/Users/cqwuxiaolong/HelloOcct/build/CMakeFiles/Project_autogen.dir/AutoRcc_AndroidQt_UVLADIE3JM_Info.json Release
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc C:/Users/cqwuxiaolong/HelloOcct/build/CMakeFiles/Project_autogen.dir/AutoRcc_AndroidQt_UVLADIE3JM_Info.json MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc C:/Users/cqwuxiaolong/HelloOcct/build/CMakeFiles/Project_autogen.dir/AutoRcc_AndroidQt_UVLADIE3JM_Info.json RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\cqwuxiaolong\HelloOcct\src\AndroidQt.qrc;C:\Users\cqwuxiaolong\HelloOcct\build\CMakeFiles\Project_autogen.dir\AutoRcc_AndroidQt_UVLADIE3JM_Info.json;C:\Users\cqwuxiaolong\HelloOcct\res\icons\ic_action_collection.png;C:\Users\cqwuxiaolong\HelloOcct\res\qml\main.qml;C:\Qt\5.15.2\msvc2019_64\bin\rcc.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\cqwuxiaolong\HelloOcct\build\Project_autogen\UVLADIE3JM\qrc_AndroidQt.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\cqwuxiaolong\HelloOcct\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/cqwuxiaolong/HelloOcct/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/cqwuxiaolong/HelloOcct -BC:/Users/cqwuxiaolong/HelloOcct/build --check-stamp-file C:/Users/cqwuxiaolong/HelloOcct/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5Config.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5ConfigVersion.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5ModuleLocation.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgIconPlugin.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgPlugin.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Network\Qt5NetworkConfig.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Network\Qt5NetworkConfigVersion.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Network\Qt5Network_QGenericEnginePlugin.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5QmlConfig.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5QmlConfigExtras.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5QmlConfigVersion.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QDebugMessageServiceFactory.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QLocalClientConnectionFactory.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlDebugServerFactory.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlDebuggerServiceFactory.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlInspectorServiceFactory.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlNativeDebugConnectorFactory.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlNativeDebugServiceFactory.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlPreviewServiceFactory.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlProfilerServiceFactory.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QQuickProfilerAdapterFactory.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QTcpServerConnectionFactory.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5QmlModels\Qt5QmlModelsConfig.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5QmlModels\Qt5QmlModelsConfigVersion.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Quick\Qt5QuickConfig.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Quick\Qt5QuickConfigVersion.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Quick\Qt5Quick_QSGD3D12Adaptation.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;C:\Users\cqwuxiaolong\HelloOcct\build\CMakeFiles\3.19.1\CMakeCCompiler.cmake;C:\Users\cqwuxiaolong\HelloOcct\build\CMakeFiles\3.19.1\CMakeCXXCompiler.cmake;C:\Users\cqwuxiaolong\HelloOcct\build\CMakeFiles\3.19.1\CMakeRCCompiler.cmake;C:\Users\cqwuxiaolong\HelloOcct\build\CMakeFiles\3.19.1\CMakeSystem.cmake;C:\Users\cqwuxiaolong\HelloOcct\src\AndroidQt.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\cqwuxiaolong\HelloOcct\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/cqwuxiaolong/HelloOcct/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/cqwuxiaolong/HelloOcct -BC:/Users/cqwuxiaolong/HelloOcct/build --check-stamp-file C:/Users/cqwuxiaolong/HelloOcct/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5Config.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5ConfigVersion.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5ModuleLocation.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgIconPlugin.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgPlugin.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Network\Qt5NetworkConfig.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Network\Qt5NetworkConfigVersion.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Network\Qt5Network_QGenericEnginePlugin.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5QmlConfig.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5QmlConfigExtras.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5QmlConfigVersion.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QDebugMessageServiceFactory.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QLocalClientConnectionFactory.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlDebugServerFactory.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlDebuggerServiceFactory.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlInspectorServiceFactory.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlNativeDebugConnectorFactory.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlNativeDebugServiceFactory.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlPreviewServiceFactory.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlProfilerServiceFactory.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QQuickProfilerAdapterFactory.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QTcpServerConnectionFactory.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5QmlModels\Qt5QmlModelsConfig.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5QmlModels\Qt5QmlModelsConfigVersion.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Quick\Qt5QuickConfig.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Quick\Qt5QuickConfigVersion.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Quick\Qt5Quick_QSGD3D12Adaptation.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;C:\Users\cqwuxiaolong\HelloOcct\build\CMakeFiles\3.19.1\CMakeCCompiler.cmake;C:\Users\cqwuxiaolong\HelloOcct\build\CMakeFiles\3.19.1\CMakeCXXCompiler.cmake;C:\Users\cqwuxiaolong\HelloOcct\build\CMakeFiles\3.19.1\CMakeRCCompiler.cmake;C:\Users\cqwuxiaolong\HelloOcct\build\CMakeFiles\3.19.1\CMakeSystem.cmake;C:\Users\cqwuxiaolong\HelloOcct\src\AndroidQt.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\cqwuxiaolong\HelloOcct\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/cqwuxiaolong/HelloOcct/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/cqwuxiaolong/HelloOcct -BC:/Users/cqwuxiaolong/HelloOcct/build --check-stamp-file C:/Users/cqwuxiaolong/HelloOcct/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5Config.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5ConfigVersion.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5ModuleLocation.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgIconPlugin.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgPlugin.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Network\Qt5NetworkConfig.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Network\Qt5NetworkConfigVersion.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Network\Qt5Network_QGenericEnginePlugin.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5QmlConfig.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5QmlConfigExtras.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5QmlConfigVersion.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QDebugMessageServiceFactory.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QLocalClientConnectionFactory.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlDebugServerFactory.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlDebuggerServiceFactory.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlInspectorServiceFactory.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlNativeDebugConnectorFactory.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlNativeDebugServiceFactory.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlPreviewServiceFactory.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlProfilerServiceFactory.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QQuickProfilerAdapterFactory.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QTcpServerConnectionFactory.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5QmlModels\Qt5QmlModelsConfig.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5QmlModels\Qt5QmlModelsConfigVersion.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Quick\Qt5QuickConfig.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Quick\Qt5QuickConfigVersion.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Quick\Qt5Quick_QSGD3D12Adaptation.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;C:\Users\cqwuxiaolong\HelloOcct\build\CMakeFiles\3.19.1\CMakeCCompiler.cmake;C:\Users\cqwuxiaolong\HelloOcct\build\CMakeFiles\3.19.1\CMakeCXXCompiler.cmake;C:\Users\cqwuxiaolong\HelloOcct\build\CMakeFiles\3.19.1\CMakeRCCompiler.cmake;C:\Users\cqwuxiaolong\HelloOcct\build\CMakeFiles\3.19.1\CMakeSystem.cmake;C:\Users\cqwuxiaolong\HelloOcct\src\AndroidQt.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\cqwuxiaolong\HelloOcct\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/cqwuxiaolong/HelloOcct/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/cqwuxiaolong/HelloOcct -BC:/Users/cqwuxiaolong/HelloOcct/build --check-stamp-file C:/Users/cqwuxiaolong/HelloOcct/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5Config.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5ConfigVersion.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5ModuleLocation.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgIconPlugin.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgPlugin.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Network\Qt5NetworkConfig.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Network\Qt5NetworkConfigVersion.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Network\Qt5Network_QGenericEnginePlugin.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5QmlConfig.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5QmlConfigExtras.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5QmlConfigVersion.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QDebugMessageServiceFactory.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QLocalClientConnectionFactory.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlDebugServerFactory.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlDebuggerServiceFactory.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlInspectorServiceFactory.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlNativeDebugConnectorFactory.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlNativeDebugServiceFactory.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlPreviewServiceFactory.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlProfilerServiceFactory.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QQuickProfilerAdapterFactory.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QTcpServerConnectionFactory.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5QmlModels\Qt5QmlModelsConfig.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5QmlModels\Qt5QmlModelsConfigVersion.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Quick\Qt5QuickConfig.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Quick\Qt5QuickConfigVersion.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Quick\Qt5Quick_QSGD3D12Adaptation.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;C:\Users\cqwuxiaolong\HelloOcct\build\CMakeFiles\3.19.1\CMakeCCompiler.cmake;C:\Users\cqwuxiaolong\HelloOcct\build\CMakeFiles\3.19.1\CMakeCXXCompiler.cmake;C:\Users\cqwuxiaolong\HelloOcct\build\CMakeFiles\3.19.1\CMakeRCCompiler.cmake;C:\Users\cqwuxiaolong\HelloOcct\build\CMakeFiles\3.19.1\CMakeSystem.cmake;C:\Users\cqwuxiaolong\HelloOcct\src\AndroidQt.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\cqwuxiaolong\HelloOcct\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\cqwuxiaolong\HelloOcct\build\Project_autogen\mocs_compilation.cpp" />
+    <ClInclude Include="C:\Users\cqwuxiaolong\HelloOcct\src\include\AndroidQt_TouchParameters.h" />
+    <ClInclude Include="C:\Users\cqwuxiaolong\HelloOcct\src\include\AndroidQt_UserInteractionParameters.h" />
+    <ClInclude Include="C:\Users\cqwuxiaolong\HelloOcct\src\include\AndroidQt_Window.h" />
+    <ClInclude Include="C:\Users\cqwuxiaolong\HelloOcct\src\include\AndroidQt.h" />
+    <ClCompile Include="C:\Users\cqwuxiaolong\HelloOcct\src\AndroidQt_TouchParameters.cxx" />
+    <ClCompile Include="C:\Users\cqwuxiaolong\HelloOcct\src\AndroidQt_Window.cxx" />
+    <ClCompile Include="C:\Users\cqwuxiaolong\HelloOcct\src\AndroidQt.cxx" />
+    <ClCompile Include="C:\Users\cqwuxiaolong\HelloOcct\src\Main.cxx" />
+    <None Include="C:\Users\cqwuxiaolong\HelloOcct\src\AndroidQt.qrc">
+    </None>
+    <ClCompile Include="C:\Users\cqwuxiaolong\HelloOcct\build\Project_autogen\UVLADIE3JM\qrc_AndroidQt.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\cqwuxiaolong\HelloOcct\build\ZERO_CHECK.vcxproj">
+      <Project>{0769725A-D012-3CE8-B2D7-3AA062D511CF}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

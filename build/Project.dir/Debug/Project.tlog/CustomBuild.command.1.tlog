@@ -1,0 +1,30 @@
+^C:\USERS\CQWUXIAOLONG\HELLOOCCT\BUILD\CMAKEFILES\2FC35544141D3FA8DEFE75ADA9F6C17A\QRC_ANDROIDQT.CPP.RULE
+setlocal
+cd C:\Users\cqwuxiaolong\HelloOcct\build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc C:/Users/cqwuxiaolong/HelloOcct/build/CMakeFiles/Project_autogen.dir/AutoRcc_AndroidQt_UVLADIE3JM_Info.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc C:/Users/cqwuxiaolong/HelloOcct/build/CMakeFiles/Project_autogen.dir/AutoRcc_AndroidQt_UVLADIE3JM_Info.json Release
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc C:/Users/cqwuxiaolong/HelloOcct/build/CMakeFiles/Project_autogen.dir/AutoRcc_AndroidQt_UVLADIE3JM_Info.json MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc C:/Users/cqwuxiaolong/HelloOcct/build/CMakeFiles/Project_autogen.dir/AutoRcc_AndroidQt_UVLADIE3JM_Info.json RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CQWUXIAOLONG\HELLOOCCT\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/cqwuxiaolong/HelloOcct -BC:/Users/cqwuxiaolong/HelloOcct/build --check-stamp-file C:/Users/cqwuxiaolong/HelloOcct/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
