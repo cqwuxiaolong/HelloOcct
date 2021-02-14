@@ -4,7 +4,6 @@ link_directories(C:/Users/cqwuxiaolong/occt/build/win64/vc14/lib)
 project(LamohCad VERSION 1.0.0)
 #Qt5 
 set(Qt5_DIR "C:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5")
-set(OpenCASCADE_INSTALL_PREFIX "C:/Users/cqwuxiaolong/occt/build/")
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
