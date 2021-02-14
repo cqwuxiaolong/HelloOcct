@@ -1,9 +1,0 @@
-{
-    "files.associations": {
-        "iostream": "cpp",
-        "qmutex": "cpp",
-        "qapplication": "cpp",
-        "*.in": "cpp"
-    },
-    "C_Cpp.errorSquiggles": "Enabled"
-}
